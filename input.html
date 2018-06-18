@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Using input</title>
+</head>
+<body>
+    <h2>Example of <em>Select</em> input.</h2>
+    <label for="favoriteColor">What is your favorite color?</label>
+    <select id="favoriteColor" name="favoriteColor">
+      <option value="colorRed">Red</option>
+      <option value="colorOrange">Orange</option>
+      <option value="colorYellow">Yellow</option>
+    </select>
+    
+    <h2>Example of <em>Radio</em> inputs.</h2>
+    <fieldset>
+      <legend>Which meal do you prefer? (choose one)</legend>
+      <input type="radio" id="breakfast1" name="favoriteMeal1" value="meal1"><label for="breakfast1">Breakfast</label>
+      <input type="radio" id="brunch1" name="favoriteMeal1" value="meal2"><label for="brunch1">Brunch</label>
+      <input type="radio" id="lunch1" name="favoriteMeal1" value="meal3"><label for="lunch1">Lunch</label>
+    </fieldset>
+    
+    <h2>Example of <em>Checkbox</em> inputs.</h2>
+    <fieldset>
+      <legend>Which meals do you enjoy? (check all that apply)</legend>
+      <input type="checkbox" id="breakfast2" name="favoriteMeal2" value="meal1"><label for="breakfast2">Breakfast</label>
+      <input type="checkbox" id="brunch2" name="favoriteMeal2" value="meal2"><label for="brunch2">Brunch</label>
+      <input type="checkbox" id="lunch2" name="favoriteMeal2" value="meal3"><label for="lunch2">Lunch</label>
+    </fieldset>
+</body>
+</html>
